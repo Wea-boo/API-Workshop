@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto+Mono&family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+  font-family: 'Maven Pro', sans-serif;
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: content-box;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4em;
+  background-color: #0f0a1a;
+  align-items: center;
+  
+  
+}
+
+#logo {
+  height: 50px;
+}
+
+#contents {
+  text-decoration: none;
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
+  padding: 0 5em;
+  color: aliceblue;
+  
+}
+
+.content {
+  padding: 0 2.3em;
+
+
+}
+
+.content > a{
+  text-decoration: none;
+  color: aliceblue
+}
+
+.content > a:hover{
+  color: crimson;
+}
+
+.user-cards{
+  display: grid;
+}
+
+.user-card {
+  border-style: solid;
+  width: 300px;
+  border-radius: 25px;
+  text-align: center;
+  
+}
+
+.user-card > a{
+  text-decoration: none;
+}
+
+#navigate-profile-button {
+  border-style: solid;
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border-color: #04AA6D;
+  color: #04AA6D;
+  
+}
+
+#navigate-profile-button:hover{
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  width: 100px;
+  height: 35px;
+}
