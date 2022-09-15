@@ -33,9 +33,7 @@ export default function UserList(props) {
       })}
 
       <Routes>
-        <Route path='/Profile/' element={<Profile Users={UserList}/>}>
-          <Route path=':id' element={<Profile Users={UserList}/>}/>
-        </Route>
+        <Route path='/Profile/:id' element={<Profile Users={UserList}/>}/>
        </Routes>
 
     </div>

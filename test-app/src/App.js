@@ -32,7 +32,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/Users/*" element={<UserList UserList={Users} setUserList={setUsers} getUsers={getUsers}/>}/>
+        <Route path="/Users/" element={<UserList UserList={Users} setUserList={setUsers} getUsers={getUsers}/>}/>
+        <Route path='/Profile/:id' element={<Profile Users={Users}/>}/>
       </Routes>
   
       
